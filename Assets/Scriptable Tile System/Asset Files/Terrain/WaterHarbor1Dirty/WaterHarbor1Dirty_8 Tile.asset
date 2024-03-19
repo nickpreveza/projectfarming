@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19236dbe43c3c7a4a80da146b6640856, type: 3}
+  m_Name: WaterHarbor1Dirty_8 Tile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 23231129, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  - {fileID: -1527474168, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  - {fileID: 285768952, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  - {fileID: 2143265890, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  - {fileID: 529380561, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  - {fileID: 1163858049, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  - {fileID: -1115283005, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  - {fileID: 46232345, guid: 7f7116cce89c3e24fbf0eb21a80723e4, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2
+  <CanItemBePlaced>k__BackingField: 1

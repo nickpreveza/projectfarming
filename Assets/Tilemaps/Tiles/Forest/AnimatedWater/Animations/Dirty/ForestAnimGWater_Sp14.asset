@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: ForestAnimGWater_Sp14
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 426625209, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  - {fileID: 1493729811, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  - {fileID: -1281001723, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  - {fileID: 1576871683, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  - {fileID: 1978823464, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  - {fileID: 866249040, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  - {fileID: -1353849561, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  - {fileID: -457558215, guid: 85872e960b04e014a841ee5f433fc27f, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

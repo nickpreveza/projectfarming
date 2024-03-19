@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: AnimatedHarborWaterClean_sp7
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 16631535, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  - {fileID: -219616309, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  - {fileID: 2006273440, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  - {fileID: -1491030373, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  - {fileID: 143702278, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  - {fileID: -618386808, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  - {fileID: -352673396, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  - {fileID: 1587882610, guid: fbac1bd44cf07274e99709ccf1cdfbab, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

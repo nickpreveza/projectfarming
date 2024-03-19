@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3284332f47fcf4241a13cba5aebf845b, type: 3}
+  m_Name: Worms
+  m_EditorClassIdentifier: 
+  ID: 11
+  uiDisplay: {fileID: 21300000, guid: 3d4904d344e870944aac498c8f9e7682, type: 3}
+  type: 5
+  rarity: 5
+  description: 
+  buffs:
+  - attribute: 4
+    value: 8
+    min: 8
+    max: 8

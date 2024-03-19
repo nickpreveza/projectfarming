@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: AnimatedHarborWater_sp14
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 927131686, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  - {fileID: 1222644423, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  - {fileID: 2000335175, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  - {fileID: 1297655779, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  - {fileID: -621755391, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  - {fileID: -1265616981, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  - {fileID: 1459473228, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  - {fileID: -1374009404, guid: a7060b866dc9f274ba49bc05f7679c3d, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

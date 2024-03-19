@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3c24c2003d605448977a39e2023628, type: 3}
+  m_Name: TutorialQuest2
+  m_EditorClassIdentifier: 
+  quest:
+    key: tutorial2
+    questName: 'Tutorial '
+    questDescription: Get your Weapon
+    questGiverDialogue:
+    - 'To protect your harvest you must first equip your weapon! '
+    - 'To do that, you have to open your inventory by pressing Tab., and going to
+      the Weapon tab! '
+    questCompletedDialogue:
+    - Well done! Here's your reward!
+    reminderDialogue:
+    - Equip your weapon by pressing Tab
+    listenerType: 4
+    targetAmountVisible: 0
+    targetAmount: 1
+    questRewardItem:
+    - hempseeds
+    - hempseeds
+    questRewardAmount: 0100000001000000

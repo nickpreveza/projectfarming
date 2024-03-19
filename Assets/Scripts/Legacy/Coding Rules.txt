@@ -1,0 +1,32 @@
+Coding Rules (Add to this when things come up)
+
+General rules:
+camelCase is used in most cases
+Use private variables as much as possible to hide information that shouldn't be altered outside the class.
+Name variables and function of what they are or what they do.
+Avoid one variable names that are hard to understand. like one letter variable names. like a..b...c. unless used as iterators in loop or similar.
+
+Sorting
+Membervariables on top of the class so they are always easy to find
+Function sorting? In order of importance? or in run order?
+
+Variable names start with small letter.
+exemple: warrior or warriorHat
+
+Method/Functions start with big letter
+example: Follow() or FollowPlayer()
+
+Class names always start with big letter:
+example: MyClass
+
+Constants Always big letters, Can be seperated with underscore:
+Example: SPEED, TOP_SPEED
+
+Enums?
+example: 
+
+Abstract Classes / interface.....same as classes for now??
+example:
+
+
+

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d4cc7932087ee14db188c98c8fc8c95, type: 3}
+  m_Name: WeaponPistol
+  m_EditorClassIdentifier: 
+  item:
+    key: weaponPistol
+    startingAmount: 1
+    effectAmount: 1
+    sprite: {fileID: 1235840684, guid: 01b9984a15e1dfd4ca806715b9c59005, type: 3}
+    placedSprite: {fileID: 1235840684, guid: 01b9984a15e1dfd4ca806715b9c59005, type: 3}
+    displayName: Pistol
+    description: 'Fight with all you got! This is a pistol. '
+    type: 5
+    rarity: 0
+    ability: 2
+    craftingCostsNames:
+    - hempseeds
+    craftingCostsValue: 0a000000
+    hideFromInventory: 1
+    keepInInventoryWhenEmpty: 0
+    isUnlocked: 1
+  weaponData:
+    weaponSprite: {fileID: 1235840684, guid: 01b9984a15e1dfd4ca806715b9c59005, type: 3}
+    bulletSpawnOffset: 0.2
+    attackPattern: 1
+    Damage:
+      statName: Damage
+      statLevel: 0
+      value:
+      - 1
+      - 2
+      - 3
+      - 4
+      valueLevelPrice: 00000000050000000a0000000f000000
+    CriticalDamage:
+      statName: Crit. Damage
+      statLevel: 1
+      value:
+      - 2
+      - 4
+      - 6
+      - 8
+      valueLevelPrice: 00000000050000000a0000000f000000
+    CriticalChance:
+      statName: Crit. Chance
+      statLevel: 2
+      value:
+      - 0.1
+      - 0.2
+      - 0.3
+      - 0.4
+      valueLevelPrice: 00000000050000000a0000000f000000
+    FireRate:
+      statName: Pistol
+      statLevel: 3
+      value:
+      - 0.4
+      - 0.3
+      - 0.2
+      - 0.1
+      valueLevelPrice: 050000000a0000000f00000014000000
+    ammoPerShot: 1
+    burstRate: 1
+    burstAmmo: 1
+    shotgunSpreadAngle: 0
+    projectileLifetime: 2
+    projectileSpeed: 8

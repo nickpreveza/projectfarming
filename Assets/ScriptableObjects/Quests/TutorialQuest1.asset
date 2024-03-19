@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3c24c2003d605448977a39e2023628, type: 3}
+  m_Name: TutorialQuest1
+  m_EditorClassIdentifier: 
+  quest:
+    key: tutorial1
+    questName: 'Tutorial '
+    questDescription: 'Plant your first seed '
+    questGiverDialogue:
+    - This smoke around us is toxic as you may have figured, Lets harvest some of 
+      these hemp plants around the tree-house
+    - 'You can use the seeds you have gathered from that harvest to grow more hemp.
+      Plant the seed on the brown grounded tiles '
+    questCompletedDialogue:
+    - Well done! Here's your reward!
+    reminderDialogue:
+    - 'You can use the seeds you have gathered from that harvest to grow more hemp.
+      Plant the seed on the brown grounded tiles '
+    listenerType: 1
+    targetAmountVisible: 1
+    targetAmount: 1
+    questRewardItem:
+    - weaponPistol
+    questRewardAmount: 01000000

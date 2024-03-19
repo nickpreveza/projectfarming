@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: AnimatedForestWater_sp5
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 552524803, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  - {fileID: 1481931999, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  - {fileID: -1964392010, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  - {fileID: 1701977648, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  - {fileID: 1634970930, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  - {fileID: 2108697693, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  - {fileID: 1498052744, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  - {fileID: -738952999, guid: 4ca21eaa18819c04abf3b76325cbcc60, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

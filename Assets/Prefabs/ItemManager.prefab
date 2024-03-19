@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4443274118826097412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4443274118826097414}
+  - component: {fileID: 4443274118826097413}
+  m_Layer: 0
+  m_Name: ItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4443274118826097414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4443274118826097412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4443274118826097413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4443274118826097412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04ae343f9168464ca4e0db96fb099e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapons:
+  - {fileID: 11400000, guid: cfacdd49878210b4dac29d8240a5425d, type: 2}
+  - {fileID: 11400000, guid: 5114032b00bb8fd4bbeca9f47ba092c1, type: 2}
+  - {fileID: 11400000, guid: fabc032f72b0a1a44b5cd5b63b60255b, type: 2}
+  - {fileID: 11400000, guid: 4d7e203a133351f46b8334b10df2fa79, type: 2}
+  blacksmithItems: []
+  factoryItems:
+  - {fileID: 11400000, guid: 6489e98064adf7b429c86924754a939b, type: 2}
+  - {fileID: 11400000, guid: c1fc3f3083efd5c40bad7d8314a3a3cb, type: 2}
+  - {fileID: 11400000, guid: df06f251aa0bf1e469c59b8dbd993f17, type: 2}
+  - {fileID: 11400000, guid: 1027d13ff2dd6a6438bd63511a441131, type: 2}
+  - {fileID: 11400000, guid: 5496912af8e51654180b54d5c231e3e7, type: 2}
+  startingItems:
+  - {fileID: 11400000, guid: cb7d544a0f3c33f4781807e4461a12ba, type: 2}
+  - {fileID: 11400000, guid: 5496912af8e51654180b54d5c231e3e7, type: 2}
+  - {fileID: 11400000, guid: 1027d13ff2dd6a6438bd63511a441131, type: 2}
+  items:
+  - {fileID: 11400000, guid: 1027d13ff2dd6a6438bd63511a441131, type: 2}
+  - {fileID: 11400000, guid: 5496912af8e51654180b54d5c231e3e7, type: 2}
+  - {fileID: 11400000, guid: cb7d544a0f3c33f4781807e4461a12ba, type: 2}
+  - {fileID: 11400000, guid: e203add625f11cf4f9d26123b289d4a0, type: 2}
+  - {fileID: 11400000, guid: 6489e98064adf7b429c86924754a939b, type: 2}
+  - {fileID: 11400000, guid: c1fc3f3083efd5c40bad7d8314a3a3cb, type: 2}
+  - {fileID: 11400000, guid: df06f251aa0bf1e469c59b8dbd993f17, type: 2}
+  - {fileID: 11400000, guid: 06070960af35e744db949d5b5d09edcf, type: 2}
+  - {fileID: 11400000, guid: cfacdd49878210b4dac29d8240a5425d, type: 2}
+  - {fileID: 11400000, guid: 5114032b00bb8fd4bbeca9f47ba092c1, type: 2}
+  removeFromInventoryCount: 0
+  dropsLevel1:
+  - {fileID: 7040030195189797948, guid: 7b84272c48c862641bc6e97887792c53, type: 3}
+  - {fileID: 7040030195189797948, guid: 9919feef029849c4c903ecc36d17c721, type: 3}
+  hempDrops:
+  - {fileID: 7040030195189797948, guid: 3b206617ea7172747b4246f27ef8426a, type: 3}
+  - {fileID: 7040030195189797948, guid: e5703d36e31797e4e982c03502584caa, type: 3}
+  - {fileID: 7040030195189797948, guid: 3b206617ea7172747b4246f27ef8426a, type: 3}
+  - {fileID: 7040030195189797948, guid: 3b206617ea7172747b4246f27ef8426a, type: 3}
+  spawnableItems:
+  - {fileID: 7040030195189797948, guid: 1371608c6683b0f4fa3a5ab13b1623a6, type: 3}
+  - {fileID: 7040030195189797948, guid: 7b84272c48c862641bc6e97887792c53, type: 3}
+  - {fileID: 7040030195189797948, guid: 8a6cd5d40f7105f46b1c57c78e8e5e43, type: 3}
+  - {fileID: 7040030195189797948, guid: 9919feef029849c4c903ecc36d17c721, type: 3}
+  - {fileID: 7040030195189797948, guid: 3b206617ea7172747b4246f27ef8426a, type: 3}
+  - {fileID: 7040030195189797948, guid: e5703d36e31797e4e982c03502584caa, type: 3}
+  - {fileID: 7040030195189797948, guid: 21363d2d59553e7428fcdf6e9472c584, type: 3}
+  - {fileID: 7040030195189797948, guid: f67e0acad89464d44aca9a1421f12c01, type: 3}

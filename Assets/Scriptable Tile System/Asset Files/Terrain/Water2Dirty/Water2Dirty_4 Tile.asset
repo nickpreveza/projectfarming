@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19236dbe43c3c7a4a80da146b6640856, type: 3}
+  m_Name: Water2Dirty_4 Tile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 1776979603, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  - {fileID: -348037922, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  - {fileID: -2067562205, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  - {fileID: -1761140902, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  - {fileID: -1458806918, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  - {fileID: 796380611, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  - {fileID: -1480531335, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  - {fileID: -524365152, guid: cac05d7b406994945a62820f40ad8090, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2
+  <CanItemBePlaced>k__BackingField: 0

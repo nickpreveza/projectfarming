@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4041537409519238751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4041537409519238736}
+  - component: {fileID: 4041537409519238737}
+  m_Layer: 0
+  m_Name: HBAudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4041537409519238736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4041537409519238751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4041537409519238737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4041537409519238751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619b6931700f4004e8eb6e56defe02a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterMixer: {fileID: 24100000, guid: 5ae070f508cc07f4b9637a6d177fdbc8, type: 2}
+  sounds:
+  - name: menuTheme
+    clip: {fileID: 8300000, guid: 8f2b6a3258fc8b7499fd94c4dfd608c3, type: 3}
+    clipVariants: []
+    mixerGroup: {fileID: 4871991919650896705, guid: 5ae070f508cc07f4b9637a6d177fdbc8, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    mute: 0
+    playOnAwake: 1
+    source: {fileID: 0}
+  - name: theme
+    clip: {fileID: 8300000, guid: 4b76ac6f319bc2842993bee03f89daa2, type: 3}
+    clipVariants: []
+    mixerGroup: {fileID: 4871991919650896705, guid: 5ae070f508cc07f4b9637a6d177fdbc8, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: birdAmbience
+    clip: {fileID: 8300000, guid: 1fc04336111324941a9861618cc519b2, type: 3}
+    clipVariants:
+    - {fileID: 8300000, guid: 31de44fa3d0e9e44d9c4beb6251a4d5b, type: 3}
+    - {fileID: 8300000, guid: 85d57d2f28fb45f449536d86eb5e4479, type: 3}
+    - {fileID: 8300000, guid: 3f36c2e5740e9fe439a4e44da95445f5, type: 3}
+    - {fileID: 8300000, guid: 996ff68d1c96abb43843f06235748d3a, type: 3}
+    - {fileID: 8300000, guid: 63edefe27cab47b4da8733b60fa121fd, type: 3}
+    mixerGroup: {fileID: 4871991919650896705, guid: 5ae070f508cc07f4b9637a6d177fdbc8, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: windAmbience
+    clip: {fileID: 8300000, guid: eb976ec42aabf1741a78c8bd7ac20596, type: 3}
+    clipVariants:
+    - {fileID: 8300000, guid: 572458bebbef3a8458591bf698845960, type: 3}
+    - {fileID: 8300000, guid: 7d34bc60bd38fa343b4fe0c6d1ae094e, type: 3}
+    - {fileID: 8300000, guid: 9056b0288e9937e459babd91a68b4f7a, type: 3}
+    mixerGroup: {fileID: 4871991919650896705, guid: 5ae070f508cc07f4b9637a6d177fdbc8, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: battleTheme
+    clip: {fileID: 8300000, guid: 28fb5dfd86c323746873a2a615c2f386, type: 3}
+    clipVariants:
+    - {fileID: 8300000, guid: 8f2b6a3258fc8b7499fd94c4dfd608c3, type: 3}
+    - {fileID: 8300000, guid: 7c6412e6b654489439e43549c5875092, type: 3}
+    mixerGroup: {fileID: 4871991919650896705, guid: 5ae070f508cc07f4b9637a6d177fdbc8, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: peacefullTheme
+    clip: {fileID: 8300000, guid: f7e7f752f786f8d418a8f22cbdcc539c, type: 3}
+    clipVariants:
+    - {fileID: 8300000, guid: 4b76ac6f319bc2842993bee03f89daa2, type: 3}
+    mixerGroup: {fileID: 4871991919650896705, guid: 5ae070f508cc07f4b9637a6d177fdbc8, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
